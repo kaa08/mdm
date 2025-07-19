@@ -59,7 +59,8 @@ AI 동영상 분석 기술을 활용하여 **교통사고 영상으로 과실비
 - 커뮤니티 (게시글, 댓글 작성)
 - 후기 작성, 문의 등록
 - 마이페이지, 로그인, 회원가입
-<img width="956" height="502" alt="사용자페이지 구성도" src="https://github.com/user-attachments/assets/cfeda073-d1c4-49c5-a5fe-cb7f4a6fdf4c" />
+<img width="956" height="383" alt="관리자페이지구성도" src="https://github.com/user-attachments/assets/b79ef350-aa79-44bc-a3da-f527d63971f5" />
+
 
 ### 관리자 페이지
 - 사용자 관리
