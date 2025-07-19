@@ -123,11 +123,14 @@ AI와 백엔드 간 연결 구조에 대한 이해가 깊어졌습니다.
 
 ## 시연 동영상
 
-##  팀원
+## 👥 팀원
 
-| 역할 | 이름 | GitHub |
-|------|------|--------|
-| 백엔드 & AI 연동 | 가한솔 | [github.com/kaa08](https://github.com/kaa08) |
-| 백엔드 & AI 연동 | 이연송 | [github.com/kaa08](https://github.com/kaa08) |
-| 프론트엔드 & 디자인 | 전민혁 | - |
-| AI 모델 | 이예지 | - |
+- **백엔드 & AI 연동 담당👋 : 가한솔**  
+  [🔗 github.com/kaa08](https://github.com/kaa08)
+
+- **백엔드 & AI 연동 담당 : 이연송**  
+  [🔗 github.com/kaa08](https://github.com/kaa08)
+
+- **프론트엔드 & 디자인 담당 : 전민혁**
+
+- **AI 모델 담당 : 이예지**
