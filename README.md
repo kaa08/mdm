@@ -1,13 +1,14 @@
 # AI 동영상 분석 기술을 사용한 교통사고 과실비율 측정 서비스 개발
 
-> **프로젝트명**: mdm(몇대몇)<br>
-> **기간**: 2024년 3월 ~ 6월  
-> **참여인원**: 4명  
+> **프로젝트명**: mdm(몇대몇) <br>
+> **기간**: 2024년 3월 ~ 6월 <br>
+> **참여인원**: 4명(백엔드 2명, 프론트엔드 1명, AI 1명) <br>
 > **담당 역할**: 백엔드 개발 및 AI 모델 연동
 <br>
 
 ## 전체적인 프로젝트 소개
-![이미지 2025  7  19  오후 8 01](https://github.com/user-attachments/assets/41d6fe90-f78f-46d8-9cbf-efc073c96027)
+<img width="1207" height="622" alt="image" src="https://github.com/user-attachments/assets/b7222eed-6f71-46de-b0d5-73f61d21be43" />
+
 
 - AI 동영상 분석 기술을 활용하여 **교통사고 영상으로 과실비율을 예측**하는 웹 기반 서비스  
 - 교통사고 영상 속 객체 인식(DetectoRS)과 사고 상황 분석(VTN)을 통해 과실 비율을 측정하고 그 결과를 시각적으로 사용자에게 제공
@@ -18,12 +19,18 @@
 
 | 구분 | 기술 |
 |------|------|
-| **Frontend** | React, HTML/CSS/JS, Next.js |
-| **Backend** | Spring Boot, JPA, Spring Security |
+| **Frontend** | React, HTML/CSS/JavaScript, Next.js |
+| **Backend** | Spring Boot, Spring Data JPA, Spring Security |
 | **AI Server** | Flask (Python) |
-| **AI Framework** | PyTorch, CUDA, DetectoRS, VTN |
+| **AI Framework** | PyTorch, CUDA, CUDNN, DetectoRS, VTN |
 | **Database** | MariaDB |
-| **협업/개발 도구** | Git, GitHub, Visual Studio Code, IntelliJ, PyCharm |
+| **Middleware / 모듈** | Passport.js, Body-parser, Multer, fs, morgan |
+| **개발 도구 (IDE/에디터)** | Visual Studio Code, IntelliJ IDEA, PyCharm, ATOM |
+| **협업 도구** | Git, GitHub |
+| **운영체제 (OS)** | CentOS |
+| **서버 정보** | TCP Port: 60011, DNS: ceprj.gachon.ac.kr:60011 |
+| **서버 하드웨어** | CPU: Intel Core2Duo / RAM: 4GB / DISK: 500GB (SATAII) / Network: 100Mbps |
+
 
 ---
 
@@ -112,15 +119,13 @@
 
 ## 느낀 점
 
-처음에는 AI 기반 서비스라는 점에서 부담이 있었지만,  
-객체 인식부터 사고 유형 분류, 과실 비율 예측까지 **AI 모델을 실제 웹 서비스에 통합**하며  
-AI와 백엔드 간 연결 구조에 대한 이해가 깊어졌습니다.
-
-또한 복잡한 데이터를 시각적으로 보여주는 과정에서 **프론트-백엔드-데이터베이스-모델 간 전체 흐름**을 경험할 수 있었고,  
-이 경험은 실무에서도 큰 자산이 될 거라고 생각합니다.
-
+이번 프로젝트는 백엔드 개발자로서 단순한 기능 구현을 넘어, 서비스 전반의 흐름을 고려한 시스템 설계와 API 연동 경험을 쌓을 수 있는 값진 기회였습니다. Spring Boot 환경에서 AI 모델을 Flask를 통해 연동하고, 프론트엔드와 API를 통해 데이터를 주고받는 과정에서 사용자의 흐름과 인터페이스 **반응을 고려한 구조 설계가 얼마나 중요한지를 체감**했습니다.
+프로젝트 전체를 통해 **기술 스택에 대한 이해도는 물론, 협업을 통해 성장하는 방식**까지 체득할 수 있었고, 이러한 경험은 이후 개발자로서 실무에 임하는 데 큰 자산이 될 것이라 확신합니다.
 
 ## 시연 동영상
+
+
+https://github.com/user-attachments/assets/fd9bae9a-2cd7-4d67-8336-cb2d3cc2a10b
 
 
 ## 👥 팀원
